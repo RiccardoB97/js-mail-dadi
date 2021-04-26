@@ -1,3 +1,5 @@
+// Solution 1
+
 // Ask user their email
 var userEmail = prompt("What's your email address?")
 
@@ -17,5 +19,15 @@ switch (userEmail) {
         break;
 }
 
+// Solution 2
 
+// Ask user their email
+var userEmail = prompt("What's your email address?")
 
+acceptedEmail = ["riccardo@gmail.com", "andrea@gmail.com", "marco@gmail.com"]
+
+if (acceptedEmail.includes(userEmail)) {
+    alert("You have access to this computer")
+} else {
+    alert("You have been denied access to this computer")
+}
